@@ -1,0 +1,11 @@
+/* pages/sysinfo/sysinfo.wxss */
+
+.info-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.info-item {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 10rpx;
+}

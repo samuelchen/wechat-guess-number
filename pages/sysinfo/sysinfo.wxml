@@ -1,0 +1,6 @@
+<!--pages/sysinfo/sysinfo.wxml-->
+<view class="container info-list">
+<block wx:for="{{sysinfo}}" wx:key="key" wx:for-index="key" wx:for-item="value">
+  <text class="info-item">{{key}}: {{value}}\n</text>
+</block>
+</view>
